@@ -892,7 +892,7 @@ function AdminPortal({ onAddProject }) {
 // --- MAIN APP ROUTER ---
 export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');
-  const [transitionText, setTransitionText] = useState('Kiki');
+  const [transitionText, setTransitionText] = useState('Kiki Studio');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const containerRef = useRef(null);
   const lenisRef = useRef(null);
