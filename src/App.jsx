@@ -132,7 +132,7 @@ const initialProjects = [
 const pricingPackages = [
   {
     title: "Starter Brand Identity",
-    price: "₹30,000",
+    price: "₹25,000",
     subtitle: "Best for new beauty brands",
     features: [
       { name: "Includes", desc: "Creative moodboard, Primary wordmark, Secondary logo, Color palette, Typograph, Brand statement" },
@@ -145,7 +145,7 @@ const pricingPackages = [
   },
   {
     title: "Premium Brand Identity",
-    price: "₹45,000",
+    price: "₹40,000",
     subtitle: "Best for launch ready and growing beauty brands",
     features: [
       { name: "Includes", desc: "Moodboard, Primary wordmark, Secondary logo, Submark, Icon, Color palette, Typography, Brand statement & visual tone" },
@@ -159,7 +159,7 @@ const pricingPackages = [
   },
   {
     title: "Logo Identity",
-    price: "₹20,000",
+    price: "₹15,000",
     subtitle: "Social Media Design Packages",
     features: [
       { name: "Includes", desc: "Primary Wordmark, Secondary Logo, Brand Icon, Submark, Color Palette, Typography" },
@@ -170,7 +170,7 @@ const pricingPackages = [
   },
   {
     title: "Social Media Design",
-    price: "₹20,000",
+    price: "₹15,000",
     subtitle: "Social Media Design Packages",
     note: "(custom design only)",
     features: [
@@ -808,8 +808,8 @@ function ContactPage() {
                 options={[
                   "Starter Brand Identity", 
                   "Premium Brand Identity", 
-                  "Social Media Starter", 
-                  "Social Media Premium"
+                  "Logo Identity", 
+                  "Social Media Design"
                 ]} 
               />
             </div>
